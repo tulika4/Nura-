@@ -118,7 +118,7 @@ export default function App() {
           >
             <div className="flex justify-between items-center mb-24">
             <div className="flex items-center">
-               <img src="/images/nura-logo.png" alt="Nura Logo" className="w-16 h-16 object-contain" />
+              <img src="/nura-logo.png" alt="Nura Logo" className="w-16 h-16 object-contain" />
               </div>
               <button onClick={() => setIsMenuOpen(false)}>
                 <X size={32} />
@@ -162,7 +162,7 @@ export default function App() {
         <motion.div 
           className="absolute inset-0 z-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: 'url("/images/nura-hammered silver fruit bowl.png")',
+            backgroundImage: 'url("/nura-hammered silver fruit bowl.png")',
             filter: 'brightness(0.7) contrast(1.1)'
           }}
           animate={{ scale: [1, 1.1] }}
@@ -263,14 +263,14 @@ export default function App() {
 
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-16">
             {[
-              { name: 'Brushed Gold Teardrop Vase', src: '/images/nura-brushed gold teardrop vase.png' },
-              { name: 'Cone Incense Holder', src: '/images/nura-cone incense holder.png' },
-              { name: 'Dual Tone Lotus Tealight Holder', src: '/images/nura-dual tone lotus tealight holder.png' },
-              { name: 'Hammered Bowl and Tray', src: '/images/nura-hammered bowl and tray.png' },
-              { name: 'Hammered Puja Thali Set', src: '/images/nura-hammered puja thali set.png' },
-              { name: 'Hammered Silver Fruit Bowl', src: '/images/nura-hammered silver fruit bowl.png' },
-              { name: 'Oyster Tealight Holder', src: '/images/nura-oyster tealight holder.jpg' },
-              { name: 'Rose Blossom Tray', src: '/images/nura-rose blossom tray.png' },
+              { name: 'Brushed Gold Teardrop Vase', src: '/nura-brushed gold teardrop vase.png' },
+              { name: 'Cone Incense Holder', src: '/nura-cone incense holder.png'},
+              { name: 'Dual Tone Lotus Tealight Holder', src: '/nura-dual tone lotus tealight holder.png' },
+              { name: 'Hammered Bowl and Tray', src: '/nura-hammered bowl and tray.png' },
+              { name: 'Hammered Puja Thali Set', src: '/nura-hammered puja thali set.png' },
+              { name: 'Hammered Silver Fruit Bowl', src: '/nura-hammered silver fruit bowl.png' },
+              { name: 'Oyster Tealight Holder', src: '/nura-oyster tealight holder.jpg' },
+              { name: 'Rose Blossom Tray', src: '/nura-rose blossom tray.png' },
             ].map((product, idx) => (
               <Reveal 
                 key={product.name} 
