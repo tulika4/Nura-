@@ -71,7 +71,7 @@ export default function App() {
         "sticky top-0 w-full z-50 px-6 md:px-12 py-4 flex justify-between items-center transition-all duration-700 bg-stone border-b border-charcoal-slate/5"
       )}>
         <div className="flex items-center">
-          <img src="/images/nura-logo.png" alt="Nura Logo" className="w-20 h-20 md:w-24 md:h-24 object-contain" />
+         <img src="/nura-logo.png" alt="Nura Logo" className="w-20 h-20 md:w-24 md:h-24 object-contain" />
         </div>
 
         <nav className="hidden md:flex space-x-12">
