@@ -192,7 +192,7 @@ export default function App() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-32 items-center">
           <Reveal className="bg-neutral-200 overflow-hidden shadow-2xl relative group">
             <img 
-              src="/images/nura-dual tone lotus tealight holder.png" 
+              src="/nura-dual tone lotus tealight holder.png" 
               alt="Lotus Tealight Holder"
               className="w-full h-auto transition-transform duration-1000 group-hover:scale-105"
             />
